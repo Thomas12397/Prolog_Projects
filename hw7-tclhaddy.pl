@@ -3,39 +3,38 @@
 %--------------------------------Database---------------------------
 
 % facts on attr1
-attr1(black, red).
-attr1(black, blue).
-attr1(black, white).
-attr1(blue, red).
-attr1(white, blue).
-attr1(white, red).
-
+%attr1(black, red).
+%attr1(black, blue).
+%attr1(black, white).
+%attr1(blue, red).
+%attr1(white, blue).
+%attr1(white, red).
+%
 % facts on attr2
-attr2(electric, X) :- X = four; X = six.
-attr2(hybrid, X) :- X = four; X = six.
-attr2(four, six).
-
+%attr2(electric, X) :- X = four; X = six.
+%attr2(hybrid, X) :- X = four; X = six.
+%attr2(four, six).
+%
 % facts on attr3
-attr3(tesla, X) :- X = skoda; X = alfa; X = bmw.
-attr3(bmw, X) :- X = skoda; X = alfa.
-attr3(alfa, skoda).
-
-attr4(a, b).
-attr4(b, c).
-attr4(c, d).
-
+%attr3(tesla, X) :- X = skoda; X = alfa; X = bmw.
+%attr3(bmw, X) :- X = skoda; X = alfa.
+%attr3(alfa, skoda).
+%
+%attr4(a, b).
+%attr4(b, c).
+%ttr4(c, d).
+%
 % The choices
-carlist([ 
-	(red, electric, tesla),
-	(black, hybrid, bmw),
-	(blue, electric, bmw),
-	(red, hybrid, bmw),
-	(red, four, alfa),
-	(blue, electric, tesla),
-	(black, four, alfa),
-	(black, electric, skoda)
-]).
-
+%carlist([ 
+%	(red, electric, tesla),
+%	(black, hybrid, bmw),
+%	(blue, electric, bmw),
+%	(red, hybrid, bmw),
+%	(red, four, alfa),
+%	(black, four, alfa),
+%	(black, electric, skoda)
+%]).
+%
 %---------------------------End Database----------------------------
 
 % Get the preference between two values of an attribute whether its
